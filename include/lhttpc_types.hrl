@@ -30,7 +30,7 @@
 -type socket() :: _.
 
 -type option() ::
-        {connect_option, list()} |
+        {connect_options, list()} |
         {connect_timeout, timeout()} |
         {connection_timeout, non_neg_integer() | infinity} |
         {max_connections, non_neg_integer()} |
